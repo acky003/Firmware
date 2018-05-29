@@ -301,7 +301,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -332,7 +332,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -363,7 +363,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -394,7 +394,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -425,7 +425,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -456,7 +456,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -487,7 +487,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -518,7 +518,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           options {
@@ -549,7 +549,7 @@ pipeline {
           agent {
             docker {
               image 'px4io/px4-dev-ros:2018-03-30'
-              args '-e ROS_HOME=/tmp/ros -e HOME=/tmp'
+              args '-e HOME=/tmp -e PX4_LOG_DIR=/tmp/ros/rootfs/fs/microsd/log -e ROS_HOME=/tmp/ros'
             }
           }
           steps {
